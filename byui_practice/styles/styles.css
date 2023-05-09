@@ -1,0 +1,36 @@
+/* It's better if you reorganize your code to match the html
+so that it is easier to read and find problems */
+
+/* Grabs every object in code and puts a border around it
+Keep this piece of code close; it is very useful, especially for new developers*/
+* {
+    border: 2px solid blue;
+}
+nav, footer {
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+a:hover {
+    background-color: white;
+    color: steelblue;
+}
+main p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+}
+/* selects all three of these objects */
+nav, footer, h1 {
+    text-align: center;
+}
+footer p {
+    font-size: 20px;
+    /* auto centers the box on the page */
+    margin: 20px auto;
+}
