@@ -1,0 +1,31 @@
+* {
+    background:pink;
+}
+h1 {
+    color:white;
+    text-align: center;
+}
+h1:hover {
+    color:black;
+}
+p {
+    text-align: center;
+    color:white;
+}
+ol {
+    text-align: left;
+    margin:0 auto;
+    width:450px;
+}
+img {
+    width: 40%;
+    display: block;
+    margin:0 auto;
+}
+#quote {
+    font-size: 2em;
+    font-weight: bold;
+}
+p.footer {
+    color:black;
+}
