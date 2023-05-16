@@ -26,6 +26,10 @@ nav a:hover {
     color: white;
 }
 
+#hero-img {
+    width: 100%;
+}
+
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: rgb(7, 0, 58);
@@ -78,6 +82,7 @@ footer p a:hover {
 
 footer a {
     color: white;
+    /* this gets rid of the underline underneath the hyperlink */
     text-decoration: none;
 }
 
