@@ -22,10 +22,12 @@ header {
 #logo-link {
     padding-top: 5px;
 }
-.logo, .icon {
+.logo {
     width: 80px;
+    border-radius: 50%;
 }
 .icon {
+    width: 80px;
     padding-top: 10px;
 }
 /* nav {
@@ -45,7 +47,7 @@ nav a:hover {
     width: 100%;
 }
 .home-title {
-    font-family: "Voltaire", "PT sans", sans-serif;
+    font-family: "Papyrus", "Copperplate", sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -86,7 +88,6 @@ main section img {
     background-color: aliceblue;
 }
 img.mountains {
-    /* width: 100%; */
     margin: 100px 0;
 }
 .msg {
