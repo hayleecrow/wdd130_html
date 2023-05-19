@@ -1,92 +1,129 @@
+/* CSS for White Water Rafting site */
+
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+body {
+    background-color: #0daade;
+    font-family: "Roboto", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
-
-body {
-    background-color: #0daade;
-}
-
 header {
     background-color: rgb(7, 0, 58);
 }
-
+#logo-link {
+    padding-top: 5px;
+}
 .logo, .icon {
     width: 80px;
 }
-
+.icon {
+    padding-top: 10px;
+}
+/* nav {
+    display: inline;
+} */
 nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
-
 nav a:hover {
     background-color: #4670f9;
     color: white;
 }
-
 #hero-img {
     width: 100%;
 }
-
+.home-title {
+    font-family: "Voltaire", "PT sans", sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
     color: rgb(7, 0, 58);
 }
-
 .button-box {
     text-align: center;
 }
-
 main section {
     text-align: center;
 }
-
+main section img {
+    box-sizing: border-box;
+}
 .book, .join {
     background-color: #0daade;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-
 .book:hover, .join:hover {
     background-color: #4670f9;
     color: white;
 }
-
+#rivers-card, #camping-card, #rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid rgb(7, 0, 58);
+}
 #background {
     height: 725px;
     background-color: aliceblue;
 }
-
+img.mountains {
+    /* width: 100%; */
+    margin: 100px 0;
+}
 .msg {
     background-color: lightgrey;
+    line-height: 1.5em;
+    padding: 35px;
 }
-
-.msg h2, .msg p {
-    color: rgb(7, 0, 58)
+.msg h2 {
+    color: rgb(7, 0, 58);
+    font-family: "Voltaire", "PT sans", sans-serif;
 }
-
+.msg p {
+    color: rgb(7, 0, 58);
+    font-size: .8em;
+    padding-bottom: 15px;
+}
 footer {
     background-color: rgb(7, 0, 58);
+    padding: 15px 50px;
+    margin-top: 200px;
 }
-
 footer p {
     color: lightgrey;
     font-size: 1.2em;
 }
-
 footer p a:hover {
     text-decoration: underline;
 }
-
 footer a {
     color: white;
     /* this gets rid of the underline underneath the hyperlink */
     text-decoration: none;
 }
-
 footer a:hover {
     background-color: #4670f9;
     color: white;
+}
+footer .social img {
+    padding-top: 15px;
 }
