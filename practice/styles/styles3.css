@@ -1,0 +1,36 @@
+/* * {
+    border: 5px solid blue;
+} */
+#content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+#img {
+    /* it's taking 100% of the grid box not the screen */
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+#ts {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    align-self: center;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+}
+#cherries {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: darkred;
+}
+#shadow {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    background-color: lightgrey;
+    z-index: -1;
+}
