@@ -4,7 +4,9 @@
 #content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
 }
 #img {
     /* it's taking 100% of the grid box not the screen */
@@ -27,10 +29,13 @@
     font-size: 40px;
     font-weight: bold;
     color: darkred;
+    letter-spacing: 0.2em;
 }
 #shadow {
     grid-column: 2/3;
     grid-row: 1/3;
     background-color: lightgrey;
+    width: 100%;
+    height: 100%;
     z-index: -1;
 }
