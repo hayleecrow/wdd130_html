@@ -18,21 +18,23 @@ h2 {
 }
 header {
     background-color: rgb(7, 0, 58);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
-#logo-link {
+#logo_link {
     padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
 .logo {
     width: 80px;
     border-radius: 50%;
 }
-.icon {
-    width: 80px;
-    padding-top: 10px;
+nav {
+    /* flex box */
+    display: flex;
+    justify-content: space-around;
 }
-/* nav {
-    display: inline;
-} */
 nav a {
     text-align: center;
     color: white;
@@ -43,17 +45,36 @@ nav a:hover {
     background-color: #4670f9;
     color: white;
 }
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
 #hero-img {
     width: 100%;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+    color: white;
 }
 .home-title {
     font-family: "Papyrus", "Copperplate", sans-serif;
     font-size: 2em;
     margin-top: 10px;
-}
-#hero-msg h1, #hero-msg h4 {
-    text-align: center;
-    color: rgb(7, 0, 58);
 }
 .button-box {
     text-align: center;
