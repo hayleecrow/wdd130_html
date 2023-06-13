@@ -1,0 +1,43 @@
+
+body.content {
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: black;
+    border: 10px solid black;
+    border-radius: 100%;
+}
+.card {
+    display: grid;
+    border-radius: 50px;
+}
+img.city_scape {
+    width: 100%;
+}
+main {
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto;
+}
+h3 {
+    color: rgb(72, 105, 190);
+}
+h1 {
+    font-weight: bold;
+}
+p {
+    color: grey;
+}
+footer {
+    background-color: rgb(38, 73, 160);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    
+}
+div {
+    border: gray;
+    padding: 10px;
+}
