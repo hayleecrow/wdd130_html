@@ -1,43 +1,57 @@
 
 body.content {
     max-width: 250px;
-    text-align: center;
     margin: 0 auto;
+    text-align: center;
     background-color: black;
     border: 10px solid black;
-    border-radius: 100%;
 }
 .card {
     display: grid;
     border-radius: 50px;
+    background-color: white;
+    border-radius: 15px;
+    max-width: 250px;
+    overflow: hidden;
+    padding: 0;
+    font-family: serif;
+    margin: 0 auto;
+    text-align: center;
 }
 img.city_scape {
     width: 100%;
 }
 main {
-    background-color: white;
     margin: 0 auto;
     padding: 20px;
     overflow: auto;
+    text-align: center;
 }
 h3 {
     color: rgb(72, 105, 190);
+    font-size: 0.8em;
+    text-align: center;
 }
 h1 {
     font-weight: bold;
+    text-align: center;
 }
 p {
     color: grey;
+    line-height: 1.9em;
+    text-align: center;
+    margin: 0 auto;
 }
-footer {
+.bottom {
     background-color: rgb(38, 73, 160);
     color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 5px;
-    
+    text-align: center;
+    font-size: 1em;
 }
-div {
+.bottom div {
     border: gray;
     padding: 10px;
 }
