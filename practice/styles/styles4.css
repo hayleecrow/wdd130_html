@@ -54,4 +54,7 @@ p {
 .bottom div {
     border: gray;
     padding: 10px;
+    /* border: solid 1px grey;
+    border-bottom: none;
+    border-top: none; */
 }
