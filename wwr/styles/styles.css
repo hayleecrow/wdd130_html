@@ -92,11 +92,11 @@ nav a:hover {
     background-color: #4670f9;
     color: white;
 }
-main {
+main.gallary {
     display: grid;
     grid-template-columns: repeat(10, 1fr)
 }
-main section {
+main.gallary section {
     text-align: center;
 }
 #rivers-card {
@@ -125,7 +125,7 @@ main section {
     opacity: .6;
     transform: scale(1.1);
 }
-#background {
+.background {
     height: 725px;
     background-color: aliceblue;
     grid-column: 1/11;
@@ -155,6 +155,56 @@ main section {
     font-size: .8em;
     padding-bottom: 15px;
 }
+
+div.left {
+    display: grid;
+    grid-template-columns: 0 repeat(10, 1fr) 0;
+    column-gap: 3%;
+}
+div.idaho, div.arizona {
+    height: 725px;
+    background-color: lightgrey;
+    grid-column: 1/13;
+    grid-row: 1/7;
+}
+img.idaho, img.arizona {
+    width: 100%;
+    grid-column: 2/5;
+    grid-row: 3/5;
+}
+section.idaho, section.arizona{
+    background-color: aliceblue;
+    color: rgb(7, 0, 58);
+    grid-column: 5/12;
+    grid-row: 2/6;
+    padding: 35px;
+}
+
+div.right {
+    display: grid;
+    grid-template-columns: 0 repeat(10, 1fr) 0;
+    column-gap: 3%;
+    margin: 10% 0 10% 0;
+}
+div.utah {
+    height: 725px;
+    background-color: aliceblue;
+    grid-column: 1/13;
+    grid-row: 1/7;
+}
+img.utah {
+    width: 100%;
+    grid-column: 9/12;
+    grid-row: 3/5;
+}
+section.utah {
+    background-color: lightgrey;
+    color: rgb(7, 0, 58);
+    grid-column: 2/9;
+    grid-row: 2/6;
+    padding: 35px;
+}
+
 footer {
     background-color: rgb(7, 0, 58);
     padding: 15px 50px;
@@ -213,7 +263,7 @@ footer .social img {
         margin: 50px auto;
         width: 60%;
     }
-    #background {
+    .background {
         display: none;
     }
     .mountains, .msg {
