@@ -271,6 +271,17 @@ footer .social img {
         display: block;
         margin: 0 auto;
     }
+    div.left, div.right {
+        display: block;
+    }
+    div.idaho, div.utah, div.arizona {
+        display: none;
+    }
+    img.idaho, img.utah, img.arizona, section.idaho, section.utah, section.arizona {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
     footer {
         margin-top: 25px;
     }
