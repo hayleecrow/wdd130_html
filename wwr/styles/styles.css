@@ -235,7 +235,7 @@ footer .social img {
 
 /* If the max width of the screen gets smaller than 900px, then use this code */
 @media screen and (max-width: 900px) {
-    #hero, .gallary {
+    #hero, main.gallary {
         display: block;
         height: auto;
     }
