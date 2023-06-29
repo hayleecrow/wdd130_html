@@ -2,9 +2,6 @@ section {
     width: 50%;
     border: 1px solid;
 }
-.block1 {
-    margin-right: auto;
-}
 .block2 {
     margin: 0 auto;
 }
@@ -14,30 +11,21 @@ section {
 .block4 {
     margin: 0 auto;
 }
-section p:nth-child(1) {
+section p:nth-of-type(1) {
     text-align: left;
 }
-section p:nth-child(2) {
+section p:nth-of-type(2) {
     text-align: center;
 }
-section p:nth-child(3) {
+section p:nth-of-type(3) {
     text-align: right;
 }
-.block1 p:nth-child(2){
-    text-align: left;
+.block4 p:nth-of-type(1){
+    text-align: right;
 }
-.block1 p:nth-child(3) {
+.block4 p:nth-of-type(2) {
     text-align: center;
 }
-.block1 p:nth-child(4) {
-    text-align: right;
-}
-.block4 p:nth-child(1){
-    text-align: right;
-}
-.block4 p:nth-child(2) {
-    text-align: center;
-}
-.block4 p:nth-child(3) {
+.block4 p:nth-of-type(3) {
     text-align: left;
 }
